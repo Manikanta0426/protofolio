@@ -1,0 +1,126 @@
+body
+{
+    font-family: 'poppins',sans-serif;
+    background-color: beige;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 30px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+h1,h2
+{
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+color: #0056b3;
+text-decoration: underline;
+}
+
+header { 
+    background: linear-gradient(to right,#831bcd,#f9620b);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section
+{
+    padding: 10px;
+    text-align: center;
+}
+
+form
+{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right,#831bcd,#f9620b);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea 
+{
+width: calc(100%-20px);
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+}
+
+h2,h3 {
+    text-decoration:underline ;
+}
+
+footer {
+    background: linear-gradient(to right,#007bff,#f9620b,green);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 500px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+form button:hover {
+    background: violet;
+}
+#container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+#text {
+    display:inline-block;
+    text-wrap: nowrap;
+    font-size: 30px;
+    animation: flow 7s linear infinite;
+}
+@keyframes flow {
+    from { transform: translate(100%);}
+    to{transform: translateX(-280%);}
+}
+
+.content .title {
+    color: #0a0a0a;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg,#1c99fe 20.16%,#7644ff 50.19%,#fd4766 79.69%);
+}
+h1 {
+    scam {
+         color: rgb(0, 255, 102);
+    }
+}
